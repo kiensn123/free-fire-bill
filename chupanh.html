@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/FileSaver.js/2.0.5/FileSaver.min.js"></script>
+</head>
+<body>
+    <div class="chupanh" >
+        buoi to  
+        dai to 
+        chim teo <br> 
+        buoicac
+        
+
+
+    </div>
+
+    <button onclick="saveFile()">Lưu file</button>
+
+    <script>
+        function saveFile() {
+            var data
+            // Tạo Blob object từ dữ liệu file
+            const blob = new Blob([data], {type: 'text/plain'});
+            
+            // Sử dụng FileSaver.js để lưu file
+            saveAs(blob, "filename.png");
+        }
+    </script>
+
+    
+    <!-- <button id="nut" > chupanh </button>
+    <script  src="/jave/cavana.js" ></script> -->
+    <script>
+        // const buton =  document.getElementById("nut")
+        // buton.addEventListener('click', () => {
+           
+
+        // })
+
+
+        // const data =  'asdasdasd,asdasc,sadasc,asd'
+        // const blob = new Blob([data],{type:'octet-stream'})
+        // const href = URL.createObjectURL(blob)
+        // URL.revokeObjectURL(href)
+        // const a  =  Object.assign(document.createElement('a'), {
+        //     href , 
+        //     style:"display:none",
+        //     download:"mydata.csv"} )
+        
+
+
+        //     document.body.appendChild(a)
+        //     a.click();
+        //     URL.revokeObjectURL(href)
+        //     a.remove();
+        //  html2canvas(document.querySelector('.chupanh'))
+        //         .then(canvas => {
+        //             const url = canvas.toDataURL('image/png')
+                    
+        //             const a = document.createElement('a')
+        //             a.setAttribute('download','imageName.png')
+        //             a.setAttribute('href',url)
+        //             a.click()
+
+        //         })
+
+
+
+
+    </script>
+    
+</body>
+</html>

@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://unpkg.com/read-excel-file@4.x/bundle/read-excel-file.min.js"></script>
+</head>
+<body>
+    <div class="chupanh">
+        <div >tên: <span id="ten">cac</span></div>
+        <div >sdt:<span id="sodau">020</span> <span id="sdt">cac</span></div>
+        <div >DIa chi:<span id="diachi1">sonha</span></div>
+        <div >so nha:<span id="diachi2">sonha</span></div>
+        <div >hANGHOA:<span id="hanghoa">hanghoa</span></div>
+
+        <div >sotien:<span id="sotien">sotien</span></div>
+        <div ><span id="buoito">size:</span> <span id="size">hanghoa</span></div>
+        <div ><span id="sotien1">sotien</span></div>
+    </div>
+    <input type="file" id = "input"> <!-- chon tep-->
+    <table id="data" ></table>
+    
+  
+
+
+
+    <!-- <script text="text/javascript" src="jave/docfile.js"></script> -->
+    <script>
+       
+        var input = document.getElementById('input')
+        input.addEventListener('change', function(){
+            readXlsxFile(input.files[0]).then(function(data){
+                console.log(data)
+                xuli(data) 
+            });
+        })
+        function xuli(data){
+            var ten = document.getElementById("ten")
+            //
+            var sdt = document.getElementById("sdt")
+            var sdt1 = document.getElementById("sodau")
+            //
+            var diachi1 = document.getElementById("diachi1")
+            var diachi2 = document.getElementById("diachi2")
+            var hanghoa = document.getElementById("hanghoa")
+            var sotien = document.getElementById("sotien")
+            //
+            var size = document.getElementById("size")
+            var size2 = document.getElementById("buoito")
+            //
+            var sotien1 = document.getElementById("sotien1")
+           
+        
+            var t = data.length
+            data.forEach(e=>{
+                ten.innerText = e[0]
+              
+              
+                if (e[1].toString().length== 7 ){
+
+                
+                    sdt1.innerText = '030'
+                    sdt.innerText = e[1]
+                }else{
+                    
+                  
+                    sdt1.innerText = '020'
+                    sdt.innerText = e[1]
+                }
+
+
+
+
+                
+                diachi1.innerText = e[2]
+                diachi2.innerText = e[3]
+                hanghoa.innerText = e[4]
+                sotien.innerText = e[5]
+                
+                
+                if (e[6] == null ){
+                    size2.innerText = ''
+                    size.innerText = '';
+                }else{
+                    size2.innerText = 'SIZE:'
+                    size.innerText = e[6];
+                }
+                sotien1.innerText = e[7]
+            })
+            // var stop = setInterval(function(){
+            //     console.log(t);
+            //     t--;
+            //     if(t<0){
+                   
+            //     }
+            // },5000);
+
+
+
+
+          
+        }
+       
+    </script>
+</body>
+</html>
