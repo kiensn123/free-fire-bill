@@ -133,6 +133,7 @@ function xuli(list){
             diachi.innerText = e.diachi + `(${sokhac})`
         }
         diachi1.innerText = e.diachi1
+        /////////////////
 
         var sanpham = document.getElementById("sanpham")
         
