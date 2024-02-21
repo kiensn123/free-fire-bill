@@ -93,6 +93,7 @@ function xuli(list){
         }else{
             var sdt = e.sdt.toString()
             var sokhac1 = sdt.slice(0,sdt.indexOf("/"))
+         
             sokhac =sdt.substring(sdt.indexOf("/")+1)
             if (sokhac1.length==7){
                 so.innerText = "030"
@@ -100,13 +101,14 @@ function xuli(list){
             }else if (sokhac1.length==8 ){
                 so.innerText = "020"
                 so1.innerText = sokhac1
-            }else if (sokhac1.length >8 && sokhac1.length <13 ){
-                var somoi = sokhac1.slice(0,2)
+            }else if (sokhac1.length >8 && sokhac1.length <12 ){
+                var somoi = sokhac1.slice(0,3)
                 if (somoi =="020" || somoi =="030"  ){
                     so.innerText = somoi
-                    so1.innerText = sdtxuli(sokhac1,2)
+                    so1.innerText = sdtxuli(sokhac1,3)
                 }else{
-                    sokhac1 = sokhac1.sdtxuli(sokhac1,1)
+                    sokhac1 = sdtxuli(sokhac1,2)
+                    
                     if (sokhac1.length == 7){
                         so.innerText = "030"
                         so1.innerText = sokhac1
