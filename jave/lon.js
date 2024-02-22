@@ -185,6 +185,8 @@ function xuli(list){
             sanpham.innerText = "T-SHIRT: ເສື້ອຍືດ"
         }else if (e.sanpham.toString() == "MOLECREAM"){
             sanpham.innerText = "MOLECREAM  ຄີມກໍາຈັດຂີ່ແມງວັນ,ສີວສ້ຽນ ,ກະເຂົ້າຝ້າ,ສິວຫົວດໍາ"
+        }else if (e.sanpham.toString() == "FISHTRAP"){
+            sanpham.innerText = "FISHTRAP: ເຫຍື່ອ"
         }else{
             alert(`khong co cai nay  ${e.sanpham}` )
         }
