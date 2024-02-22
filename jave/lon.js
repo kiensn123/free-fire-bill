@@ -35,7 +35,8 @@ function  sdtxuli(sdt,solay){
 function xuli(list){
     var dem = 0;
    list.forEach(e =>{
-        if (e.lam =="OK" || e.thanhtoan == "Cancel"){
+        if (e.lam =="OK" || e.thanhtoan == "Cancel" || e.ten == null || e.sdt == null || e.diachi == null || e.diachi1==null ){
+            alert(`CÓ LỖI Ở SẢN PHẨM CÓ SỐ ĐIỆN THOẠI LÀ :  ${e.sdt}` )
             return
         }
           ///////////////////////////
