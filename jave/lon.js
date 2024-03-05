@@ -189,6 +189,7 @@ function xuli(list){
             sanpham.innerText = "FISHTRAP: ເຫຍື່ອ"
         }else{
             alert(`khong co cai nay  ${e.sanpham}` )
+            return
         }
 
 
