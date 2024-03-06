@@ -187,6 +187,11 @@ function xuli(list){
             sanpham.innerText = "MOLECREAM  ຄີມກໍາຈັດຂີ່ແມງວັນ,ສີວສ້ຽນ ,ກະເຂົ້າຝ້າ,ສິວຫົວດໍາ"
         }else if (e.sanpham.toString() == "FISHTRAP"){
             sanpham.innerText = "FISHTRAP: ເຫຍື່ອ"
+        }else if (e.sanpham.toString() == "SY25-MENTSHIRT"){
+            sanpham.innerText = "SY25-MENTSHIRT:ເສື້ອຍືດຜູ້ຊາຍ"
+        }else if (e.sanpham.toString() == "H14-DRESS"){
+            sanpham.innerText = "H14-DRESS: ນຸ່ງ"    
+        
         }else{
             alert(`khong co cai nay  ${e.sanpham}` )
             return
