@@ -74,9 +74,10 @@ function xuli(list){
 
         }else if(e.sdt.toString().length ==9 || e.sdt.toString().length ==10 ||e.sdt.toString().length ==11 ){
             var sdtbuoi = sdtxuli(e.sdt.toString())
-            var xuli1 = sdtbuoi.slice(0,2)
+            var xuli1 = sdtbuoi.slice(0,3)
+            console.log(xuli1)
             if (xuli1 == "020" || xuli1 == "030"  ){
-                sdtbuoi = sdtxuli(sdtbuoi,2)
+                sdtbuoi = sdtxuli(sdtbuoi,3)
                 if (sdtbuoi.length == 7){
                     so.innerText = "030"
                     so1.innerText = sdtbuoi
