@@ -85,7 +85,7 @@ function xuli(list){
                     so1.innerText = sdtbuoi
                 } 
             }else{
-                sdtbuoi = sdtxuli(sdtbuoi,1)
+                sdtbuoi = sdtxuli(sdtbuoi,2)
                 if (sdtbuoi.length == 7){
                     so.innerText = "030"
                     so1.innerText = sdtbuoi
