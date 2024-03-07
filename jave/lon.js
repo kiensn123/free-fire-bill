@@ -193,12 +193,16 @@ function xuli(list){
         }else if (e.sanpham.toString() == "H14-DRESS"){
             sanpham.innerText = "H14-DRESS: ນຸ່ງ"    
         
+        }else if (e.sanpham.toString() == "SOCKMAGNET"){
+            sanpham.innerText = " SOCKMAGNET: ຖົງຕີນແມ່ເຫຼັກຄວາມຮ້ອ ນດ້ວຍຕົນເອງ"    
+        
+
+
         }else{
             alert(`khong co cai nay  ${e.sanpham}` )
             return
         }
-
-
+       
         var thanhtien = document.getElementById("thanhtien")
         var size = document.getElementById("size")
         var size1 = document.getElementById("size1")
