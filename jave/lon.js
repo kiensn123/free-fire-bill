@@ -192,7 +192,6 @@ function xuli(list){
             sanpham.innerText = "SY25-MENTSHIRT:ເສື້ອຍືດຜູ້ຊາຍ"
         }else if (e.sanpham.toString() == "H14-DRESS"){
             sanpham.innerText = "H14-DRESS: ນຸ່ງ"    
-        
         }else if (e.sanpham.toString() == "SOCKMAGNET"){
             sanpham.innerText = " SOCKMAGNET: ຖົງຕີນແມ່ເຫຼັກຄວາມຮ້ອ ນດ້ວຍຕົນເອງ"    
         }else if (e.sanpham.toString() == "ELECTRICCOMB"){
