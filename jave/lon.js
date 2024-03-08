@@ -195,8 +195,14 @@ function xuli(list){
         
         }else if (e.sanpham.toString() == "SOCKMAGNET"){
             sanpham.innerText = " SOCKMAGNET: ຖົງຕີນແມ່ເຫຼັກຄວາມຮ້ອ ນດ້ວຍຕົນເອງ"    
+        }else if (e.sanpham.toString() == "ELECTRICCOMB"){
+            sanpham.innerText = "ELECTRICCOMB"    
+        }else if (e.sanpham.toString() == "GOLDCARD"){
+            sanpham.innerText = "GOLDCARD ແຜ່ນຮອງແຜ່ນຄຳ 24K ຂອງຫຼີ້ນບັດ"    
         
 
+
+        
 
         }else{
             alert(`khong co cai nay  ${e.sanpham}` )
