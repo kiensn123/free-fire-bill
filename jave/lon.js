@@ -75,9 +75,10 @@ function xuli(list){
         }else if(e.sdt.toString().length ==9 || e.sdt.toString().length ==10 ||e.sdt.toString().length ==11 ){
             var sdtbuoi = sdtxuli(e.sdt.toString())
             var xuli1 = sdtbuoi.slice(0,3)
-            console.log(xuli1)
+        
             if (xuli1 == "020" || xuli1 == "030"  ){
                 sdtbuoi = sdtxuli(sdtbuoi,3)
+                console.log(xuli1)
                 if (sdtbuoi.length == 7){
                     so.innerText = "030"
                     so1.innerText = sdtbuoi
@@ -86,14 +87,22 @@ function xuli(list){
                     so1.innerText = sdtbuoi
                 } 
             }else{
-                sdtbuoi = sdtxuli(sdtbuoi,2)
-                if (sdtbuoi.length == 7){
-                    so.innerText = "030"
-                    so1.innerText = sdtbuoi
+                var xuli1 = sdtbuoi.slice(0,2)
+                console.log(xuli1)
+                if (xuli1 =="30" || xuli1=="20"){
+                    sdtbuoi = sdtxuli(sdtbuoi,2)
+                    if (sdtbuoi.length == 7){
+                        so.innerText = "030"
+                        so1.innerText = sdtbuoi
+                    }else{
+                        so.innerText = "020"
+                        so1.innerText = sdtbuoi
+                    } 
                 }else{
-                    so.innerText = "020"
-                    so1.innerText = sdtbuoi
-                } 
+                    alert(`bill số điện thoại ko phù hơp :  ${e.sdt} , ${e.sanpham}` )
+                    return
+                }
+            
             }   
            
         }else{
