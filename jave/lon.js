@@ -209,6 +209,8 @@ function xuli(list){
             sanpham.innerText = "GOLDCARD ແຜ່ນຮອງແຜ່ນຄຳ 24K ຂອງຫຼີ້ນບັດ"    
         }else if (e.sanpham.toString() == "H22-DRESS"){
             sanpham.innerText = "H22-DRESS"    
+        }else if (e.sanpham.toString() == "MARSHALLSPEAKER"){
+            sanpham.innerText = "MARSHALLSPEAKER"  
         
 
 
