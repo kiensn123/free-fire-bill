@@ -213,7 +213,8 @@ function xuli(list){
             sanpham.innerText = "MARSHALLSPEAKER"  
         }else if (e.sanpham.toString() == "H03-SMN"){
             sanpham.innerText = "H03-SMN"  
-        
+        }else if (e.sanpham.toString() == "H08-CV"){
+                sanpham.innerText = "H08-CV"  
 
 
         
