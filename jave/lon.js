@@ -215,6 +215,8 @@ function xuli(list){
             sanpham.innerText = "H03-SMN"  
         }else if (e.sanpham.toString() == "H08-CV"){
                 sanpham.innerText = "H08-CV"  
+        }else if (e.sanpham.toString() == "EYELINER"){
+                sanpham.innerText = "Liner: ສໍຂິດຄິ້ວ ແລະ ເສັ້ນຜົມ 4D"  
 
 
         
