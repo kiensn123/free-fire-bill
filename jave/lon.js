@@ -218,6 +218,11 @@ function xuli(list){
         }else if (e.sanpham.toString() == "EYELINER"){
             sanpham.innerText = "Liner: ສໍຂິດຄິ້ວ ແລະ ເສັ້ນຜົມ 4D"  
 
+        }else if (e.sanpham.toString() == "T27-ShortJean"){
+            sanpham.innerText = "T27-ShortJean"  
+
+
+
 
         
 
