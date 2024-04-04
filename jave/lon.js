@@ -220,11 +220,10 @@ function xuli(list){
 
         }else if (e.sanpham.toString() == "T27-ShortJean"){
             sanpham.innerText = "T27-ShortJean"  
-
-
-
-
         
+        }else if (e.sanpham.toString() == "H17-ShortJean"){
+            sanpham.innerText = "H17-ShortJean"  
+
 
         }else{
             alert(`khong co cai nay  ${e.sanpham}` )
