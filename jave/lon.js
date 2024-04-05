@@ -190,7 +190,7 @@ function xuli(list){
         }else if (e.sanpham.toString() == "GINSENGSOAP"){
             sanpham.innerText = "ສະບູ່ໂສມ - Ginseng Soap"
         }else if (e.sanpham.toString() == "SMH11-MENSHIRT"){
-            sanpham.innerText = "ນ້ຳມັນຫອມລະເຫີຍສຳລັບບຳລຸງຜົມ OUHOE"
+            sanpham.innerText = "SMH11-MENSHIRT"
         }else if (e.sanpham.toString() == "MENTSHIRT"){
             sanpham.innerText = "T-SHIRT: ເສື້ອຍືດ"
         }else if (e.sanpham.toString() == "MOLECREAM"){
