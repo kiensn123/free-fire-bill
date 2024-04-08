@@ -35,7 +35,7 @@ function  sdtxuli(sdt,solay){
 function xuli(list){
     var dem = 0;
    list.forEach(e =>{
-        if (e.lam =="OK" || e.thanhtoan == "Cancel" || e.ten == null || e.sdt == null || e.diachi == null || e.diachi1==null || e.donvi ==null  ){
+        if (e.lam =="OK" || e.thanhtoan == "Cancel" || e.ten == null || e.sdt == null || e.diachi == null || e.diachi1==null || e.donvi ==null || typeof e.sdt != "number" ){
             if (e.lam == "OK" || e.thanhtoan == "Cancel" ){
                 
             }else{
@@ -44,7 +44,7 @@ function xuli(list){
             return
         }
 
-        console.log(typeof e.sdt)
+
           ///////////////////////////
         if (e.ten.toString().length > 10){
             var name = e.ten.toString()
