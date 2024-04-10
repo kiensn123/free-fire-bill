@@ -227,6 +227,8 @@ function xuli(list){
             sanpham.innerText = "H17-ShortJean"  
         }else if (e.sanpham.toString() == "KINGMAGNET"){
             sanpham.innerText = ""  
+        }else if (e.sanpham.toString() == "H06-JOGGER"){
+            sanpham.innerText = "H06-JOGGER"  
 
         }else{
             alert(`khong co cai nay  ${e.sanpham}` )
