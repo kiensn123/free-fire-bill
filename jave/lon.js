@@ -232,6 +232,9 @@ function xuli(list){
         }else if (e.sanpham.toString() == "T29-JEAN"){
             sanpham.innerText = "T29-JEAN"  
 
+        }else if (e.sanpham.toString() == "LUNGSPRAY"){
+            sanpham.innerText = "LUNGSPRAY"  
+
         }else{
             alert(`khong co cai nay  ${e.sanpham}` )
             return
