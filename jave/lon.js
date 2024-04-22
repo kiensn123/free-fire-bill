@@ -234,7 +234,7 @@ function xuli(list){
 
         }else if (e.sanpham.toString() == "LUNGSPRAY"){
             sanpham.innerText = "LUNGSPRAY"  
-
+        //deptrai
         }else{
             alert(`khong co cai nay  ${e.sanpham}` )
             return
