@@ -234,6 +234,10 @@ function xuli(list){
 
         }else if (e.sanpham.toString() == "LUNGSPRAY"){
             sanpham.innerText = "LUNGSPRAY"  
+        }else if (e.sanpham.toString() == "EARDROPS"){
+            sanpham.innerText = "EARDROPS"  
+        }else if (e.sanpham.toString() == "HANDMASSAGE"){
+            sanpham.innerText = "HANDMASSAGE"  
         //deptrai
         }else{
             alert(`khong co cai nay  ${e.sanpham}` )
