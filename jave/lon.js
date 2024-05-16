@@ -241,7 +241,8 @@ function xuli(list){
         //deptrai
         }else if (e.sanpham.toString() == "CLEANER"){
             sanpham.innerText = "CLEANER"  
-            
+        }else if (e.sanpham.toString() == "PRESSURE"){
+            sanpham.innerText = "PRESSURE: ສາຍແຂນແມ່ເຫຼັກ"  
 
         }else{
             alert(`khong co cai nay  ${e.sanpham}` )
