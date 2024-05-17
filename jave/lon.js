@@ -243,6 +243,8 @@ function xuli(list){
             sanpham.innerText = "CLEANER"  
         }else if (e.sanpham.toString() == "PRESSURE"){
             sanpham.innerText = "PRESSURE: ສາຍແຂນແມ່ເຫຼັກ"  
+        }else if (e.sanpham.toString() == "ELECTRICSTOVE"){
+            sanpham.innerText = "ELECTRICSTOVE: ເຕົາໄຟຟ້າທີ່ມີຄວາມສາມາດສູງ"  
 
         }else{
             alert(`khong co cai nay  ${e.sanpham}` )
