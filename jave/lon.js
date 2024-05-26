@@ -245,6 +245,9 @@ function xuli(list){
             sanpham.innerText = "PRESSURE: ສາຍແຂນແມ່ເຫຼັກ"  
         }else if (e.sanpham.toString() == "ELECTRICSTOVE"){
             sanpham.innerText = "ELECTRICSTOVE: ເຕົາໄຟຟ້າທີ່ມີຄວາມສາມາດສູງ"  
+        }else if (e.sanpham.toString() == "MULTIPLIERS"){
+            sanpham.innerText = "MULTIPLIERS"  
+
 
         }else{
             alert(`khong co cai nay  ${e.sanpham}` )
