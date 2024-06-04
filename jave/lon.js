@@ -247,6 +247,8 @@ function xuli(list){
             sanpham.innerText = "ELECTRICSTOVE: ເຕົາໄຟຟ້າທີ່ມີຄວາມສາມາດສູງ"  
         }else if (e.sanpham.toString() == "MULTIPLIERS"){
             sanpham.innerText = "MULTIPLIERS"  
+        }else if (e.sanpham.toString() == "GEARLEVER"){
+            sanpham.innerText = "GEARLEVER: ເກຍເກຍລົດ"  
 
 
         }else{
