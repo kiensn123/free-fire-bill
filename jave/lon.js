@@ -249,6 +249,8 @@ function xuli(list){
             sanpham.innerText = "MULTIPLIERS"  
         }else if (e.sanpham.toString() == "GEARLEVER"){
             sanpham.innerText = "GEARLEVER: ເກຍເກຍລົດ"  
+        }else if (e.sanpham.toString() == "KINGPLIERS"){
+            sanpham.innerText = "KINGPLIERS: ເຄື່ອງມືສ້ອມແປງໄຟຟ້າອະເນກປະສົງ"  
 
 
         }else{
