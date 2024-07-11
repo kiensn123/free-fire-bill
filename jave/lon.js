@@ -251,6 +251,8 @@ function xuli(list){
             sanpham.innerText = "GEARLEVER: ເກຍເກຍລົດ"  
         }else if (e.sanpham.toString() == "KINGPLIERS"){
             sanpham.innerText = "KINGPLIERS: ເຄື່ອງມືສ້ອມແປງໄຟຟ້າອະເນກປະສົງ"  
+        }else if (e.sanpham.toString() == "KINGCAMERA"){
+            sanpham.innerText = "King - Camera"  
 
 
         }else{
