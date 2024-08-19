@@ -254,6 +254,10 @@ function xuli(list){
         }else if (e.sanpham.toString() == "KINGCAMERA"){
             sanpham.innerText = "King - Camera"  
 
+        }else if (e.sanpham.toString() == "KINGSMAN"){
+            sanpham.innerText = "KINGSMAN"  
+
+
 
         }else{
             alert(`khong co cai nay  ${e.sanpham}` )

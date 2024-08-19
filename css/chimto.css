@@ -18,7 +18,7 @@ body{
 
 .bill .header{
     text-align: center;
-    border-bottom: 3px solid rgb(0, 0, 0); 
+    border-bottom: 2px solid rgb(0, 0, 0); 
 
 
 
@@ -28,7 +28,7 @@ body{
     margin-top: 0;
 
     
-    border-bottom: 3px solid rgb(0, 0, 0); 
+    border-bottom: 2px solid rgb(0, 0, 0); 
     font-size: 20px;
     font-weight:500;
 
@@ -39,7 +39,7 @@ body{
     margin:5px 10px;
    display: flex;
    justify-content: space-between;
-
+    font-weight: 300;
 
 
 }
@@ -73,7 +73,7 @@ body{
     margin-bottom: 20px;
 }
 .main2{
-    border-top: 3px solid black;
+    border-top: 2px solid black;
     display: flex;
     font-size: 20px;
     
@@ -87,25 +87,62 @@ body{
     
 }
 .main2 .trai{
-    width: 55%;
+    width: 50%;
    padding-top: 10px;
    border-right: 1.5px solid black;
     
 }
 .main2 .phai{
-    width: 45%;
+    width: 50%;
     float: right;
     border-left: 1.5px solid black;
+    display: flex;
      
  }
- .main2 .phai .giatien1{
+ .main2 .phai .phaigiua{
+    width: 90%;
+    margin: auto;
+
+     
+ }
+ .main2 .trai .giatien1{
     font-size: 30px;
    
-    padding-top: 20px;
+    /* padding-top: 20px; */
     text-align: center;
-    
+    margin: 0;
      
  }
+
+
+.main3{
+    border-top: 2px solid black;
+    display: flex;
+    font-size: 17px;
+ 
+    padding: 10px 10px;
+    padding-bottom: 30px;
+}
+
+.main3 #tieudetrai{
+   
+
+    font-size: 27px;
+    font-weight: 400;
+ 
+  
+}
+.main3 p{
+
+
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 10px;
+ 
+    
+}
+
+
 .footer{
     border-top: 3px solid black;
 }
