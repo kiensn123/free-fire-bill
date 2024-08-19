@@ -54,10 +54,14 @@ body{
     
     
 }
+.main>b{
+    font-size: 27px;
+    font-weight: 500;
+}
 .main .tenvaso{
     display: flex;
     justify-content: space-between;
-    margin: 20px 0;
+    margin: 10px 0;
     margin-bottom: 0;
     font-size: 25px;
     
