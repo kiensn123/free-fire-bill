@@ -259,6 +259,8 @@ function xuli(list){
         }else if (e.sanpham.toString() == "BRA-MASSAGE"){
             sanpham.innerText = "BRA-MASSAGE"  
 
+        }else if (e.sanpham.toString() == "NHATANXOANG"){
+            sanpham.innerText = "NHATANXOANG"  
 
 
 
