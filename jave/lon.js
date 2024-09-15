@@ -262,7 +262,8 @@ function xuli(list){
         }else if (e.sanpham.toString() == "NHATANXOANG"){
             sanpham.innerText = "NHATANXOANG"  
 
-
+        }else if (e.sanpham.toString() == "TENSU"){
+            sanpham.innerText = "TENSU"  
 
         }else{
             alert(`khong co cai nay  ${e.sanpham}` )
