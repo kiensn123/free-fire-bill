@@ -265,6 +265,10 @@ function xuli(list){
         }else if (e.sanpham.toString() == "TENSU"){
             sanpham.innerText = "TENSU"  
 
+        }else if (e.sanpham.toString() == "BOCASURE"){
+            sanpham.innerText = "BOCASURE"  
+        }else if (e.sanpham.toString() == "INJECTION"){
+            sanpham.innerText = "NJECTION:ເຄື່ອງສັກຢາສັດຕະວະແພດ"  
         }else{
             alert(`khong co cai nay  ${e.sanpham}` )
             return
