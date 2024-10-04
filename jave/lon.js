@@ -272,7 +272,9 @@ function xuli(list){
         }else if (e.sanpham.toString() == "AGOMOM"){
             sanpham.innerText = "AGOMOM"  
         }else if (e.sanpham.toString() == "ACTION-CAM"){
-            sanpham.innerText = "ACTION-CAM"  
+            sanpham.innerText = "ACTION-CAM" 
+        }else if (e.sanpham.toString() == "C-Biofla"){
+            sanpham.innerText = "C-Biofla"  
         }else{
             alert(`khong co cai nay  ${e.sanpham}` )
             return
