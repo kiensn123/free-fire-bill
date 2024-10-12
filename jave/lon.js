@@ -277,6 +277,8 @@ function xuli(list){
             sanpham.innerText = "C-Biofla"  
         }else if (e.sanpham.toString() == "ODISURE"){
             sanpham.innerText = "ODISURE"  
+        }else if (e.sanpham.toString() == "CHARMING"){
+            sanpham.innerText = "CHARMING" 
         }else{
             alert(`khong co cai nay  ${e.sanpham}` )
             return
