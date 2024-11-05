@@ -283,6 +283,8 @@ function xuli(list){
             sanpham.innerText = "CG-FLOWERSEED" 
         }else if (e.sanpham.toString() == "HEADLAMP"){
             sanpham.innerText = "HEADLAMP" 
+        }else if (e.sanpham.toString() == "PROSTH-PLUS"){
+            sanpham.innerText = "PROSTH-PLUS" 
         }else{
             alert(`khong co cai nay  ${e.sanpham}` )
             return
