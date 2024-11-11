@@ -310,7 +310,7 @@ function xuli(list){
             thanhtien.innerText = "0K"
 
         }else{
-            thanhtien.innerText = e.tien + "Bath"
+            thanhtien.innerText = e.tien + "K"
         }
 
         var daux1 = document.getElementById("daux1")
