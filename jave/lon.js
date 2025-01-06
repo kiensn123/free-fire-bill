@@ -289,6 +289,8 @@ function xuli(list){
             sanpham.innerText = "SPO-ROYAL" 
         }else if (e.sanpham.toString() == "SMART-TV"){
             sanpham.innerText = "SMART-TV" 
+        }else if (e.sanpham.toString() == "SOYBEAN"){
+            sanpham.innerText = "SOYBEAN" 
         }else{
             alert(`khong co cai nay  ${e.sanpham}` )
             return
