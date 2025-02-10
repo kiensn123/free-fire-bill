@@ -295,6 +295,8 @@ function xuli(list){
             sanpham.innerText = "DERMA" 
         }else if (e.sanpham.toString() == "DRAGON-RING"){
             sanpham.innerText = "DRAGON-RING" 
+        }else if (e.sanpham.toString() == "THYROYD"){
+            sanpham.innerText = "THYROYD" 
         }else{
             alert(`khong co cai nay  ${e.sanpham}` )
             return
