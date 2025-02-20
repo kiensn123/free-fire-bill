@@ -299,6 +299,10 @@ function xuli(list){
             sanpham.innerText = "THYROYD" 
         }else if (e.sanpham.toString() == "BODYFIT"){
             sanpham.innerText = "BODYFIT" 
+        }else if (e.sanpham.toString() == "SMARTWATCH"){
+            sanpham.innerText = "SMARTWATCH" 
+        }else if (e.sanpham.toString() == "MEN-TSHIRT"){
+            sanpham.innerText = "MEN-TSHIRT" 
         }else{
             alert(`khong co cai nay  ${e.sanpham}` )
             return
