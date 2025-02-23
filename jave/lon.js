@@ -303,6 +303,8 @@ function xuli(list){
             sanpham.innerText = "SMARTWATCH" 
         }else if (e.sanpham.toString() == "MEN-TSHIRT"){
             sanpham.innerText = "MEN-TSHIRT" 
+        }else if (e.sanpham.toString() == "MEN-TSHIRT"){
+            sanpham.innerText = "MEN-TSHIRT" 
         }else{
             alert(`khong co cai nay  ${e.sanpham}` )
             return
