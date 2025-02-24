@@ -298,13 +298,17 @@ function xuli(list){
         }else if (e.sanpham.toString() == "THYROYD"){
             sanpham.innerText = "THYROYD" 
         }else if (e.sanpham.toString() == "BODYFIT"){
-            sanpham.innerText = "BODYFIT" 
+            sanpham.innerText = "BODYFIT:ຫຼຸດນໍ້າໜັກໄດ້ຢ່າງວ່ອງໄວ,ປອດໄພ" 
         }else if (e.sanpham.toString() == "SMARTWATCH"){
             sanpham.innerText = "SMARTWATCH" 
         }else if (e.sanpham.toString() == "MEN-TSHIRT"){
             sanpham.innerText = "MEN-TSHIRT" 
         }else if (e.sanpham.toString() == "EYERUBY"){
-            sanpham.innerText = "EYERUBY" 
+            sanpham.innerText = "EYERUBY:ປິ່ນປົວຫາຍຂາດພະຍາດຕາໄດ້ທຸກຊະນິດ" 
+        }else if (e.sanpham.toString() == "KIDNEY-TONIC"){
+            sanpham.innerText = "KIDNEY-TONIC:ຟື້ນຟູສຸຂະພາບຫມາກໄຂ່ຫຼັງ" 
+        }else if (e.sanpham.toString() == "THYROYD "){
+            sanpham.innerText = "THYROYD:ປົກປ້ອງຕ່ອມໄທລອຍໃຫ້ມີສຸຂະພາບດີ" 
         }else{
             alert(`khong co cai nay  ${e.sanpham}` )
             return
