@@ -309,8 +309,10 @@ function xuli(list){
             sanpham.innerText = "KIDNEY-TONIC:ຟື້ນຟູສຸຂະພາບຫມາກໄຂ່ຫຼັງ" 
         }else if (e.sanpham.toString() == "THYROYD "){
             sanpham.innerText = "THYROYD:ປົກປ້ອງຕ່ອມໄທລອຍໃຫ້ມີສຸຂະພາບດີ" 
+        }else if (e.sanpham.toString() == "HERBAL-MASK"){
+            sanpham.innerText = "HERBAL-MASK: มาส์กสมุนไพร" 
         }else{
-
+        
             
             alert(`khong co cai nay  ${e.sanpham}` )
             return
