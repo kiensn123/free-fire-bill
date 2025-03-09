@@ -311,6 +311,8 @@ function xuli(list){
             sanpham.innerText = "THYROYD:ປົກປ້ອງຕ່ອມໄທລອຍໃຫ້ມີສຸຂະພາບດີ" 
         }else if (e.sanpham.toString() == "HERBAL-MASK"){
             sanpham.innerText = "HERBAL-MASK: มาส์กสมุนไพร" 
+        }else if (e.sanpham.toString() == "KIDNEYTONIC-MILK"){
+            sanpham.innerText = " KIDNEYTONIC-MILK" 
         }else{
         
             
