@@ -313,6 +313,8 @@ function xuli(list){
             sanpham.innerText = "HERBAL-MASK: มาส์กสมุนไพร" 
         }else if (e.sanpham.toString() == "KIDNEYTONIC-MILK"){
             sanpham.innerText = " KIDNEYTONIC-MILK" 
+        }else if (e.sanpham.toString() == "EELHOE-DERMA"){
+            sanpham.innerText = " EELHOE-DERMA" 
         }else{
         
             
