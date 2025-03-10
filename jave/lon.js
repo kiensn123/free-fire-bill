@@ -315,6 +315,8 @@ function xuli(list){
             sanpham.innerText = " KIDNEYTONIC-MILK" 
         }else if (e.sanpham.toString() == "EELHOE-DERMA"){
             sanpham.innerText = " EELHOE-DERMA" 
+        }else if (e.sanpham.toString() == "MILK-KIDNEYTONIC"){
+            sanpham.innerText = " MILK-KIDNEYTONIC" 
         }else{
         
             
