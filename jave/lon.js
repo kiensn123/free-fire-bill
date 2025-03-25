@@ -317,7 +317,7 @@ function xuli(list){
             sanpham.innerText = " EELHOE-DERMA" 
         }else if (e.sanpham.toString() == "MILK-KIDNEYTONIC"){
             sanpham.innerText = " MILK-KIDNEYTONIC" 
-        }else if (e.sanpham.toString() == " ATK-LAXATIVE"){
+        }else if (e.sanpham.toString() == "ATK-LAXATIVE"){
             sanpham.innerText = "ATK-LAXATIVE: ช่วยให้คุณมีระบบย่อยอาหารที่แข็งแรง" 
         }else{
         
