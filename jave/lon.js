@@ -319,6 +319,8 @@ function xuli(list){
             sanpham.innerText = " MILK-KIDNEYTONIC" 
         }else if (e.sanpham.toString() == "ATK-LAXATIVE"){
             sanpham.innerText = "ATK-LAXATIVE: ช่วยให้คุณมีระบบย่อยอาหารที่แข็งแรง" 
+        }else if (e.sanpham.toString() == "ANX-LADY"){
+            sanpham.innerText = "ANX-LADY: ฟื้นคืนเสน่ห์ความเป็นผู้หญิงของคุณ" 
         }else{
         
             
