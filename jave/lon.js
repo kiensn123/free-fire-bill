@@ -321,6 +321,8 @@ function xuli(list){
             sanpham.innerText = "ATK-LAXATIVE: ช่วยให้คุณมีระบบย่อยอาหารที่แข็งแรง" 
         }else if (e.sanpham.toString() == "ANX-LADY"){
             sanpham.innerText = "ANX-LADY: ฟื้นคืนเสน่ห์ความเป็นผู้หญิงของคุณ" 
+        }else if (e.sanpham.toString() == "ANTI-HEMORRHOID"){
+            sanpham.innerText = "ANTI-HEMORRHOID" 
         }else{
         
             
