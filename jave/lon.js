@@ -323,6 +323,8 @@ function xuli(list){
             sanpham.innerText = "ANX-LADY: ฟื้นคืนเสน่ห์ความเป็นผู้หญิงของคุณ" 
         }else if (e.sanpham.toString() == "ANTI-HEMORRHOID"){
             sanpham.innerText = "ANTI-HEMORRHOID" 
+        }else if (e.sanpham.toString() == "GOUTTO"){
+            sanpham.innerText = "GOUTTO" 
         }else{
         
             
