@@ -354,7 +354,7 @@ function xuli(list){
             thanhtien.innerText = "0K"
 
         }else{
-            thanhtien.innerText = e.tien + "K"
+            thanhtien.innerText = e.tien + ""
         }
 
         var daux1 = document.getElementById("daux1")
