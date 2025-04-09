@@ -325,6 +325,8 @@ function xuli(list){
             sanpham.innerText = "ANTI-HEMORRHOID" 
         }else if (e.sanpham.toString() == "GOUTTO"){
             sanpham.innerText = "GOUTTO" 
+        }else if (e.sanpham.toString() == "DETOXSlIM-MILK"){
+            sanpham.innerText = "DETOXSlIM-MILK" 
         }else{
         
             
