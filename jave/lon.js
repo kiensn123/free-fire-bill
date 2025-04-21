@@ -327,6 +327,14 @@ function xuli(list){
             sanpham.innerText = "GOUTTO" 
         }else if (e.sanpham.toString() == "DETOXSlIM-MILK"){
             sanpham.innerText = "DETOXSlIM-MILK" 
+        }else if (e.sanpham.toString() == "BODYSLIM-MILK"){
+            sanpham.innerText = "BODYSLIM-MILK" 
+        }else if (e.sanpham.toString() == "BODYSLIM-MILK"){
+            sanpham.innerText = "BODYSLIM-MILK" 
+        }else if (e.sanpham.toString() == "SOUNDCARD"){
+            sanpham.innerText = "SOUNDCARD" 
+        }else if (e.sanpham.toString() == "MILK-KIDNEYTONIC"){
+            sanpham.innerText = "MILK-KIDNEYTONIC" 
         }else{
         
             
