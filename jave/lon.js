@@ -335,6 +335,8 @@ function xuli(list){
             sanpham.innerText = "SOUNDCARD" 
         }else if (e.sanpham.toString() == "MILK-KIDNEYTONIC"){
             sanpham.innerText = "MILK-KIDNEYTONIC" 
+        }else if (e.sanpham.toString() == "WEIGHTLOSS-PATCH"){
+            sanpham.innerText = "WEIGHTLOSS-PATCH" 
         }else{
         
             
