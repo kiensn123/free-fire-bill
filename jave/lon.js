@@ -337,6 +337,10 @@ function xuli(list){
             sanpham.innerText = "MILK-KIDNEYTONIC" 
         }else if (e.sanpham.toString() == "WEIGHTLOSS-PATCH"){
             sanpham.innerText = "WEIGHTLOSS-PATCH" 
+        }else if (e.sanpham.toString() == "360-CAMERA"){
+            sanpham.innerText = "360-CAMERA" 
+        }else if (e.sanpham.toString() == "MASSAGE-SLIPPERS"){
+            sanpham.innerText = "MASSAGE-SLIPPERS" 
         }else{
         
             
