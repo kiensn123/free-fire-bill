@@ -341,6 +341,8 @@ function xuli(list){
             sanpham.innerText = "360-CAMERA" 
         }else if (e.sanpham.toString() == "MASSAGE-SLIPPERS"){
             sanpham.innerText = "MASSAGE-SLIPPERS" 
+        }else if (e.sanpham.toString() == "LUCKY-BRACELET"){
+            sanpham.innerText = "LUCKY-BRACELET" 
         }else{
         
             
