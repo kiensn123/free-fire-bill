@@ -343,6 +343,8 @@ function xuli(list){
             sanpham.innerText = "MASSAGE-SLIPPERS" 
         }else if (e.sanpham.toString() == "LUCKY-BRACELET"){
             sanpham.innerText = "LUCKY-BRACELET" 
+        }else if (e.sanpham.toString() == "SKINPEELING-CREAM"){
+            sanpham.innerText = "SKINPEELING-CREAM" 
         }else{
         
             
