@@ -345,6 +345,8 @@ function xuli(list){
             sanpham.innerText = "LUCKY-BRACELET" 
         }else if (e.sanpham.toString() == "SKINPEELING-CREAM"){
             sanpham.innerText = "SKINPEELING-CREAM" 
+        }else if (e.sanpham.toString() == "GINSENG-ANHUNG"){
+            sanpham.innerText = "GINSENG-ANHUNG: ເພີ່ມສຸຂະພາບ ແລະ ພູມຕ້ານທານ ເພື່ອເສີມພູມຕ້ານທານໃຫ້ແຂງແຮງ" 
         }else{
         
             
