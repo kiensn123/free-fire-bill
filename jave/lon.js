@@ -346,7 +346,9 @@ function xuli(list){
         }else if (e.sanpham.toString() == "SKINPEELING-CREAM"){
             sanpham.innerText = "SKINPEELING-CREAM" 
         }else if (e.sanpham.toString() == "GINSENG-ANHUNG"){
-            sanpham.innerText = "GINSENG-ANHUNG: ເພີ່ມສຸຂະພາບ ແລະ ພູມຕ້ານທານ ເພື່ອເສີມພູມຕ້ານທານໃຫ້ແຂງແຮງ" 
+            sanpham.innerText = "GINSENG-ANHUNG: ເພີ່ມສຸຂະພາບ ແລະ ພູມຕ້ານທານ ເພື່ອເສີມພູມຕ້ານທານໃຫ້ແຂງແຮງ"
+        }else if (e.sanpham.toString() == "BODY-SLINE"){
+            sanpham.innerText = "BODY-SLINE: ລູກຄ້າສາມາດລົດນໍ້າໜັກໄດ້ຢ່າງວ່ອງໄວ,ປອດໄພ"
         }else{
         
             
