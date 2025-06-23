@@ -349,6 +349,8 @@ function xuli(list){
             sanpham.innerText = "GINSENG-ANHUNG: ເພີ່ມສຸຂະພາບ ແລະ ພູມຕ້ານທານ ເພື່ອເສີມພູມຕ້ານທານໃຫ້ແຂງແຮງ"
         }else if (e.sanpham.toString() == "BODY-SLINE"){
             sanpham.innerText = "BODY-SLINE: ລູກຄ້າສາມາດລົດນໍ້າໜັກໄດ້ຢ່າງວ່ອງໄວ,ປອດໄພ"
+        }else if (e.sanpham.toString() == "COSMETIC-BAG"){
+            sanpham.innerText = "COSMETIC-BAG: ກະເປົາໃສ່ເຄື່ອງສຳອາງ ຮຸ່ນໃໝ່ປີ 2025"
         }else{
         
             
