@@ -351,6 +351,8 @@ function xuli(list){
             sanpham.innerText = "BODY-SLINE: ລູກຄ້າສາມາດລົດນໍ້າໜັກໄດ້ຢ່າງວ່ອງໄວ,ປອດໄພ"
         }else if (e.sanpham.toString() == "COSMETIC-BAG"){
             sanpham.innerText = "COSMETIC-BAG: ກະເປົາໃສ່ເຄື່ອງສຳອາງ ຮຸ່ນໃໝ່ປີ 2025"
+        }else if (e.sanpham.toString() == "DOC-RETINOL"){
+             sanpham.innerText = "DOC-RETINOL"
         }else{
         
             
